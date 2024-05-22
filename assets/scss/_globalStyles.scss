@@ -1,0 +1,32 @@
+// Colors
+$navy-blue: #152247;
+$off-white: #FFFFFF;
+$beige: #F6DBA6;
+$golden-brown: #94793C;
+
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+  font-family: valdoThin;
+  src: url('../font/Valdo\ Thinitalic\ 1.otf');
+}
+
+
+// Mixins
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Styles
+body {
+  font-family: valdoThin, "Montserrat", sans-serif;
+  
+  background-color: $navy-blue;
+  color: $off-white;
+  
+  margin: 0;
+  padding: 0;
+}
