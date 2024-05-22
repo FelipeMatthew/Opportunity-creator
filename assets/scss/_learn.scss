@@ -1,0 +1,54 @@
+#learn{
+    margin: 0;
+    font-family: "Montserrat";
+    background-color: $navy-blue;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    background-color: #0a2e56;
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+.highlight {
+    background-color: #0c3b78;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #bfa76f;
+}
+
+.learning-points {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.point {
+    background-color: #0c3b78;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.point i {
+    font-size: 1.5em;
+    color: #bfa76f;
+}
+
+.point p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #dcdcdc;
+}

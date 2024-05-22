@@ -152,3 +152,138 @@ body {
 .intro .content p {
   font-size: 24px;
 }
+
+#services {
+  background-color: white;
+  height: 100vh;
+}
+
+h3 {
+  padding-top: 3em;
+  font-family: "Montserrat";
+  color: #152247;
+  text-align: center;
+  font-weight: 800;
+  font-size: 2em;
+}
+
+.container_services {
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  background-color: #000;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.video-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 2.5em;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.details p {
+  font-family: "Montserrat";
+  font-size: 1.3em;
+  color: #152247;
+  font-weight: 800;
+  margin: 5px 0;
+}
+
+.details {
+  padding-top: 1em;
+}
+
+#learn {
+  margin: 0;
+  font-family: "Montserrat";
+  background-color: #152247;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #0a2e56;
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.highlight {
+  background-color: #0c3b78;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #bfa76f;
+}
+
+.learning-points {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+}
+
+.point {
+  background-color: #0c3b78;
+  padding: 15px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.point i {
+  font-size: 1.5em;
+  color: #bfa76f;
+}
+
+.point p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #dcdcdc;
+}
