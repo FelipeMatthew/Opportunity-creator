@@ -1,0 +1,113 @@
+#home {
+  background-color: #152247;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+;
+}
+#homeBgImg{
+  background-image: url('../images/profiles/all-grils.jpeg');
+  background-position: center top;
+  background-size: cover; 
+  background-repeat: no-repeat;
+
+	position: absolute;
+	top: 0;
+
+	opacity: 0.4;
+  width: 100vw;
+	height: 50vh;
+	z-index: 0;
+}
+
+.flex{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.scroll-down {
+	position: absolute;
+	left: 50%;
+	bottom: 15px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	margin-left: -15px;
+	display: block;
+	z-index: 10;
+  text-align: center;
+}
+
+.scroll-down span{
+  position: relative;
+  color: #fff;
+	animation-name: drop;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+}
+
+
+@keyframes drop	{
+	0%   { top:0px;  opacity: 0;}
+	30%  { top:10px; opacity: 1;}
+	100% { top:25px; opacity: 0;}
+}
+
+// Content
+
+.intro {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 0;
+	text-align: center;
+	transform: translate(0%, -50%);
+
+	.start {
+		font-size: 16px;
+		font-style: normal;
+		text-transform: none;
+		margin: 15px 0;
+	}
+
+	.main-logo {
+		width: 80vw;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		
+	}
+
+	.content {
+		font-family: "Montserrat";
+
+		
+
+		padding: 0 10px;
+		margin-bottom: 10%;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: end;
+
+		height: 90vh;
+
+		h2 {
+			font-size: 30px;	
+		}
+
+		p {
+			font-size: 24px;
+		}
+
+	}
+}
+
+
+
