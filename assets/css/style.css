@@ -4,11 +4,371 @@
   src: url("../font/Valdo Thinitalic 1.otf");
 }
 body {
-  font-family: valdoThin, "Montserrat", sans-serif;
+  font-family: "Montserrat", valdoThin, sans-serif;
   background-color: #152247;
   color: #FFFFFF;
   margin: 0;
   padding: 0;
+}
+
+.empresaria-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f5deb3;
+  color: #152247;
+  padding: 20px;
+  text-align: center;
+}
+.empresaria-section h1 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.empresaria-section .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+.empresaria-section .cards .card {
+  background-color: #152247;
+  color: white;
+  padding: 20px;
+  border-radius: 40px;
+  width: 100%;
+  max-width: 300px;
+  text-align: left;
+}
+.empresaria-section .cards .card h2 {
+  font-size: 20px;
+  text-align: center;
+}
+.empresaria-section .cards .card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.empresaria-section .cards .card ul li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+.empresaria-section .cards .comum {
+  background-color: #152247;
+}
+.empresaria-section .cards .oportunidades {
+  background-color: #152247;
+}
+
+.icon-custom {
+  font-size: 1.5rem;
+  color: #F6DBA6;
+}
+
+.opportunity-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #152247;
+  padding: 20px;
+  text-align: center;
+}
+.opportunity-section h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.opportunity-section .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+.opportunity-section .cards .card {
+  background-color: rgba(30, 61, 107, 0.3);
+  border-radius: 30px;
+  width: 100%;
+  max-width: 300px;
+  text-align: left;
+}
+.opportunity-section .cards .card img {
+  width: 100%;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+.opportunity-section .cards .card p {
+  padding: 0 10px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.opportunity-section .button-edited {
+  background: linear-gradient(15deg, #a67c00, #bf9b30, #ffbf00, #ffcf40, #ffdc73, #bf9b30, #a67c00);
+}
+
+.experience-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #F6DBA6;
+  color: #152247;
+  padding: 25px;
+}
+.experience-section h1 {
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+.experience-section .divider {
+  height: 2px;
+  background-color: #152247;
+}
+.experience-section .content-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+.experience-section .content-text p {
+  font-size: 1.2rem;
+}
+.experience-section .content-text .fa-check {
+  font-size: 1.8rem;
+}
+
+.scroll-icon {
+  margin-top: 20px;
+}
+
+.fa-arrow-down {
+  font-size: 2.5rem;
+  color: #152247;
+}
+.fa-arrow-down:hover {
+  color: #FFFFFF;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+
+#services {
+  background-color: white;
+  height: 100vh;
+}
+
+h3 {
+  padding-top: 3em;
+  font-family: "Montserrat";
+  color: #152247;
+  text-align: center;
+  font-weight: 800;
+  font-size: 2em;
+}
+
+.container_services {
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  background-color: #000;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.video-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 2.5em;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.details p {
+  font-family: "Montserrat";
+  font-size: 1.3em;
+  color: #152247;
+  font-weight: 800;
+  margin: 5px 0;
+}
+
+.details {
+  padding-top: 1em;
+}
+
+#learn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  font-family: "Montserrat";
+  background-color: #152247;
+  color: #fff;
+  min-height: 100vh;
+  text-align: center;
+}
+#learn .about {
+  color: #F6DBA6;
+  margin-bottom: 40px;
+}
+
+.container {
+  background-color: #0a2e56;
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.highlight {
+  padding: 10px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  border: 4px solid #bfa76f;
+}
+
+.learning-points {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 25px;
+}
+
+.point {
+  background-color: #252F4B;
+  padding: 23px;
+  border-radius: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  font-size: 1.3rem;
+}
+
+.icon-mod {
+  font-size: 2rem;
+  color: #94793C;
+  padding-bottom: 15px;
+}
+
+.point p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #dcdcdc;
+}
+
+.button-edited {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1em 1.3em;
+  gap: 0.4rem;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  background: linear-gradient(15deg, #252440, #2d2c55, #2f2c79, #2f2c79, #000020) no-repeat;
+  background-size: 300%;
+  background-position: left center;
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+  color: #FFFFFF;
+  margin: 1.5rem 0;
+}
+
+.button-edited:hover {
+  background-size: 320%;
+  background-position: right center;
+}
+
+.button-edited:hover svg {
+  fill: #FFFFFF;
+}
+
+.button-edited svg {
+  width: 23px;
+  fill: #f09f33;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 #home {
@@ -151,139 +511,4 @@ body {
 }
 .intro .content p {
   font-size: 24px;
-}
-
-#services {
-  background-color: white;
-  height: 100vh;
-}
-
-h3 {
-  padding-top: 3em;
-  font-family: "Montserrat";
-  color: #152247;
-  text-align: center;
-  font-weight: 800;
-  font-size: 2em;
-}
-
-.container_services {
-  text-align: center;
-  width: 90%;
-  max-width: 400px;
-  margin: 0 auto;
-}
-
-.video-container {
-  position: relative;
-  width: 100%;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio */
-  background-color: #000;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.video-container img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.play-button {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  font-size: 2.5em;
-  color: white;
-  background: rgba(0, 0, 0, 0.5);
-  border-radius: 100%;
-  padding: 10px;
-}
-
-.details p {
-  font-family: "Montserrat";
-  font-size: 1.3em;
-  color: #152247;
-  font-weight: 800;
-  margin: 5px 0;
-}
-
-.details {
-  padding-top: 1em;
-}
-
-#learn {
-  margin: 0;
-  font-family: "Montserrat";
-  background-color: #152247;
-  color: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  min-height: 100vh;
-}
-
-.container {
-  background-color: #0a2e56;
-  width: 90%;
-  max-width: 400px;
-  padding: 20px;
-  border-radius: 10px;
-  text-align: center;
-}
-
-.highlight {
-  background-color: #0c3b78;
-  padding: 10px;
-  border-radius: 5px;
-  margin-bottom: 20px;
-  border: 1px solid #bfa76f;
-}
-
-.learning-points {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: 15px;
-}
-
-.point {
-  background-color: #0c3b78;
-  padding: 15px;
-  border-radius: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 10px;
-}
-
-.point i {
-  font-size: 1.5em;
-  color: #bfa76f;
-}
-
-.point p {
-  margin: 0;
-  font-size: 0.9em;
-  color: #dcdcdc;
 }

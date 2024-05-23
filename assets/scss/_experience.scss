@@ -1,0 +1,49 @@
+.experience-section {
+  @include flex-center;
+  flex-direction: column;
+
+  background-color: $beige;
+  color: $navy-blue;
+
+  padding: 25px;
+
+  h1 {
+    margin-bottom: 2.5rem;
+    text-align: center;
+  }
+
+  .divider {
+    height: 2px;
+    background-color: $navy-blue;
+  }
+
+  .content-text {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    p {
+      font-size: 1.2rem;
+    }
+
+    .fa-check {
+      font-size: 1.8rem;
+    }
+  }
+}
+
+// Icon animation
+.scroll-icon {
+  margin-top: 20px;
+}
+
+
+.fa-arrow-down {
+  font-size: 2.5rem;
+  color: $navy-blue;
+
+  &:hover {
+    color: $off-white;
+    transition: .2s ease-in;
+  }
+}
