@@ -1,0 +1,56 @@
+
+.opportunity-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $navy-blue;
+  padding: 20px;
+  text-align: center;
+
+  h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    .card {
+      background-color: rgb(30, 61, 107, 0.3);
+      border-radius: 10px;
+      width: 100%;
+      max-width: 300px;
+      text-align: left;
+
+      img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        padding: 0 10px;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+    }
+  }
+
+  .button-edited {
+    background: linear-gradient(
+      15deg,
+      #a67c00, 
+      #bf9b30,
+      #ffbf00,
+      #ffcf40,
+      #ffdc73,
+      #bf9b30,
+      #a67c00,
+    )
+  }
+
+  
+}

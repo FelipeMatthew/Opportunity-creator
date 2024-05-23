@@ -80,13 +80,63 @@ body {
 .empresaria-section .cards .oportunidades {
   background-color: #152247;
 }
-.empresaria-section .button-edited {
-  margin: 1.5rem 0;
-}
 
 .icon-custom {
   font-size: 1.5rem; /* Tamanho do ícone */
   color: #F6DBA6; /* Cor do ícone */
+}
+
+.opportunity-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #152247;
+  padding: 20px;
+  text-align: center;
+}
+.opportunity-section h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.opportunity-section .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+.opportunity-section .cards .card {
+  background-color: rgba(30, 61, 107, 0.3);
+  border-radius: 10px;
+  width: 100%;
+  max-width: 300px;
+  text-align: left;
+}
+.opportunity-section .cards .card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.opportunity-section .cards .card p {
+  padding: 0 10px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.opportunity-section .button-edited {
+  background: linear-gradient(15deg, #a67c00, #bf9b30, #ffbf00, #ffcf40, #ffdc73, #bf9b30, #a67c00);
 }
 
 #services {
@@ -169,13 +219,13 @@ h3 {
   font-weight: bold;
   border-radius: 30px;
   cursor: pointer;
-  text-shadow: 2px 2px 3px rgba(136, 0, 136, 0.5);
   background: linear-gradient(15deg, #252440, #2d2c55, #2f2c79, #2f2c79, #000020) no-repeat;
   background-size: 300%;
   background-position: left center;
   -webkit-transition: background 0.3s ease;
   transition: background 0.3s ease;
   color: #FFFFFF;
+  margin: 1.5rem 0;
 }
 
 .button-edited:hover {
