@@ -1,0 +1,84 @@
+.profile-section {
+  @include flex-center;
+
+  height: 100vh;
+
+  flex-direction: column;
+  background-color: $golden-brown;
+  color: $off-white;
+
+  text-align: center;
+
+  padding: 20px;
+
+
+  .card-profile {
+    padding: 5px 20px;
+    text-align: center;
+    border-radius: 15px;
+    height: 70vh;
+
+    .small-text {
+      margin-top: -1rem;
+      cursor: pointer;
+
+      a {
+        text-decoration: none;
+        color: rgb(255, 255, 255, 0.5);
+
+        &:hover {
+          transition: .4s ease-in;
+          color: $golden-brown;
+        }
+      }
+    }
+
+    img {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+      object-fit: cover;
+    }
+
+    h6 {
+      margin-top: -1.7rem;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+}
+
+// splide
+
+#splide {
+  max-width: 100%;
+  margin: auto;
+}
+
+#splide .splide__slide {
+  background-color: $navy-blue;
+  color: #fff;
+  padding: 25px 0;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 3.5px;
+  z-index: 30;
+}
+
+
+/* Styles for larger screens */
+@media (min-width: 600px) {
+  #splide .splide__slide {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 800px) {
+  #splide {
+    max-width: 800px;
+  }
+}

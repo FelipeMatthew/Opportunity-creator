@@ -17,6 +17,11 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- Splide -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+
+
   </head>
   <body>
     <!-- Home Section - START -->
@@ -53,10 +58,11 @@
       <div class="container_services">
         <h3>ISSO SERÁ UM POUCO DO QUE VOCÊ VAI VIVER</h3>
         <div class="video-container">
-          <img src="assets/images/brand/blue-golden.png" alt="" />
-          <div class="play-button">
-            <i class="fa-solid fa-play"></i>
-        </div>
+          <video controls alt="" >
+            <source src="assets/video/presentation.MP4">
+            Esse browser não possui suporte para HTML5
+          </video>
+        
         </div>
         <div class="details">
           <p>Presset Kit Completo</p>
@@ -214,7 +220,7 @@
         </div>
         <div class="divider"></div>
       </div>
-      <a href="#services">
+      <a href="#profile-section">
         <div class="scroll-icon">
           <span>
             <i class="fa-solid fa-arrow-down"></i>
@@ -226,10 +232,116 @@
     <!-- Experience Section - END -->
 
 
+    <!-- Profiles Section - START -->
+
+    <section class="profile-section">
+      <h1>Essas serão as palestrantes presentes na maior imersão da área da beleza</h1>
+      
+      <div id="splide" class="splide">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+
+              <div class="card-profile">
+                <img src="./assets/images/profiles/faces/tati-lima.jpeg" alt="">
+                <h1>Criação de Conteúdo</h1>
+                <p class="small-text"><a href="https://www.instagram.com/tatiliimasobrancelhass/" target="_blank">@tatiliimasobrancelhass</a></p>
+                <p>Designer de sobrancelhas e CEO do Studio Tati Lima Sobrancelhas, mentora de mulheres que querem crescer no digital sem surtar! Quando se fala de marketing leve e intencional, que aumenta o seu faturado em até 3x mais, ela fala com propriedade! E vai te ensinar a como vender mais sem aparecer. </p>
+              </div>
+              
+            </li>
+            <li class="splide__slide">
+
+              <div class="card-profile">
+                <img src="./assets/images/profiles/faces/karina-andrade.jpeg" alt="">
+                <h1>Brand Beauty - Posicionamento</h1>
+                <p class="small-text"><a href="https://www.instagram.com/karinanndrade/" target="_blank">@karinanndrade</a></p>
+                <p>CEO do Studio kabeautyspace, mentora de empresarias da beleza, ela sabe com excelencia em como se posicionar na mente do cliente e ser a unica opçao! Tudo sobre posicionamento e imagem & comunicação ela ira te direcionar. 
+                </p>
+              </div>
+
+            </li>
+            <li class="splide__slide">
+              
+              <div class="card-profile">
+                <img src="./assets/images/profiles/faces/iris-rhamnusia.jpeg" alt="">
+                <h1>Gestão financeira</h1>
+                <p class="small-text"><a href="https://www.instagram.com/irisfinancaspessoais/" target="_blank">@irisfinancaspessoais</a></p>
+                <p>Formada em contabilidade, hoje atua na área mudando a vida financeira de milhares de mulheres, para que cada uma prospere dentro da área profissional. 
+                  O caminho que está irá passar sobre gestão financeira será o mais saudável para sua empresa.</p>
+              </div>
+
+            </li>
+            <li class="splide__slide">
+              
+              <div class="card-profile">
+                <img src="./assets/images/profiles/faces/rebeca-vitoria-.jpeg" alt="">
+                <h1>Talk Show</h1>
+                <h6>As dificuldade de empreender com 13 anos</h6>
+                <p class="small-text"><a href="https://www.instagram.com/studiorebecavitoria/" target="_blank">@studiorebecavitoria </a></p>
+                <p>
+                  Começou aos 13 anos e hoje é CEO do Studio Rebeca Vitoria, sendo uma grande inspiração para jovens empresárias. Seus desafios contribuíram para seu crescimento e ela compartilhará seus melhores conselhos para se tornar uma empresária da beleza.</p>
+              </div>
+
+            </li>
+            <li class="splide__slide">
+              
+              <div class="card-profile">
+                <img src="./assets/images/profiles/faces/catherine.jpeg" alt="catherine">
+                <h1>Se destacando no mercado saturado </h1>
+                <p class="small-text"><a href="https://www.instagram.com/unhasbycaty/" target="_blank">@unhasbycaty</a></p>
+                <p>CEO das UnhasbyCaty,hoje é uma das maiores referencias no ramo de unhas, ela ira te mostrar o caminho e o processo de como ser destaque no seu nicho beauty, de forma leve e autentica.</p>
+              </div>
+
+            </li>
+            <li class="splide__slide">
+              
+              <div class="card-profile">
+                <img src="./assets/images/profiles/faces/rayza-oliveira.jpeg" alt="">
+                <h1 class="">Gestão de pessoas e inteligência emocional</h1>
+                <p class="small-text"><a href="https://www.instagram.com/rayzaoliveirapmu/" target="_blank">@rayzaoliveirapmu</a></p>
+                <p>CEO do StudioPraElas, tem sua equipe de profissionais que não depende dela para funcionar. Ter sua empresa estruturada para receber coloboradores é o primeiro passo para delegar, e ela, vai te direcionar para esse caminho. </p>
+              </div>
+
+            </li>
+            <li class="splide__slide">
+              
+              <div class="card-profile">
+                <img src="./assets/images/profiles/faces/yasmin-medeiros.jpeg" alt="">
+                <h1>Como montar seu primeiro curso beauty </h1>
+                <p class="small-text"><a href="https://www.instagram.com/yasmimmedeirosbeauty/" target="_blank">@yasmimmedeirosbeauty</a></p>
+                <p>CEO do Yasmim Beauty, hoje ela trasnforna vida de outras mulheres atraves do seu conhecimento. Os cursos na area beauty cresce muito, os pilares principais para montar seu curso, Yasmim ira te ensinar</p>
+              </div>
+
+            </li>
+            <li class="splide__slide">
+              
+              <div class="card-profile">
+                <img src="./assets/images/profiles/faces/thaina-canesqui.jpeg" alt="">
+                <h1>Esteira de produtos </h1>
+                <p class="small-text"><a href="https://www.instagram.com/studiothainacanesqui/" target="_blank">@studiothainacanesqui </a></p>
+                <p>CEO do Studio Thaina Canesqui, hoje tem sua linha de dermocosméticos que agrega ao seu serviço e vende para uma única cliente 3 vezes mais!
+                  Ela irá te mostrar o caminho para criar sua esteira de produtos dentro do studio e faturar mais.</p>
+              </div>
+
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Profiles Section - END -->
+
     <!-- Scripts -->
     <script
       src="https://kit.fontawesome.com/e0a84a9cbf.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Splide -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+
+    <script src="./assets/js/splide.js"></script>
+    
   </body>
 </html>
