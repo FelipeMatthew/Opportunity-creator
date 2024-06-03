@@ -43,9 +43,13 @@
 .status {
     margin-top: 20px;
     font-weight: bold;
-    color: white;
     padding: 10px;
     border-radius: 5px;
+
+    a {
+        text-decoration: none;
+        color: $off-white;
+    }
 }
 
 .esgotado .status {
@@ -53,7 +57,7 @@
 }
 
 .disponivel .status {
-    background-color: #D4A373;
+    background-color: $golden-brown;
 }
 
 @media (max-width: 600px) {

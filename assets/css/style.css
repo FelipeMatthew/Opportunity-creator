@@ -280,54 +280,60 @@ h3 {
   padding-top: 1em;
 }
 
-.ticket-section {
-  background-color: #F6DBA6;
+.results-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 10px 25px 50px 25px;
-}
-.ticket-section h1 {
-  text-align: center;
-  color: #152247;
-}
-.ticket-section img {
-  width: 100%;
-}
-.ticket-section .content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 10px;
-  background-color: #94793C;
+  background-color: #FFFFFF;
   padding: 20px;
-  border-radius: 20px;
+  text-align: center;
 }
-.ticket-section .fa-calendar-days {
+.results-section h1 {
   color: #152247;
-  margin-right: 10px;
-  font-size: 28px;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
-.ticket-section .fa-location-dot {
+.results-section .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+.results-section .cards .card {
+  background-color: #152247;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 300px;
+  text-align: left;
+}
+.results-section .cards .card img {
+  width: 100%;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+.results-section .cards .card p {
+  text-align: center;
+  padding: 0 10px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.results-section .button-edited {
   color: #152247;
-  margin-right: 10px;
-  font-size: 28px;
+  background: linear-gradient(15deg, #a67c00, #bf9b30, #ffbf00, #ffcf40, #ffdc73, #bf9b30, #a67c00);
 }
 
 .profile-section {
@@ -411,6 +417,56 @@ h3 {
     max-width: 800px;
   }
 }
+.ticket-section {
+  background-color: #F6DBA6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px 25px 50px 25px;
+}
+.ticket-section h1 {
+  text-align: center;
+  color: #152247;
+}
+.ticket-section img {
+  width: 100%;
+}
+.ticket-section .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+  background-color: #94793C;
+  padding: 20px;
+  border-radius: 20px;
+}
+.ticket-section .fa-calendar-days {
+  color: #152247;
+  margin-right: 10px;
+  font-size: 28px;
+}
+.ticket-section .fa-location-dot {
+  color: #152247;
+  margin-right: 10px;
+  font-size: 28px;
+}
+
 footer {
   background-color: #152247;
   color: white;
@@ -498,6 +554,10 @@ footer p {
   color: #FFFFFF;
   margin: 1.5rem 0;
 }
+.button-edited a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
 
 .button-edited:hover {
   background-size: 320%;
@@ -513,6 +573,72 @@ footer p {
   fill: #f09f33;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
+}
+
+.lote-section .loteConteiner {
+  text-align: center;
+  max-width: 600px;
+  padding: 20px;
+}
+.lote-section h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.lote-section .lote {
+  background-color: #FFFBF2;
+  border: 1px solid #C7B299;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 25px;
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.lote-section .lote h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #B09968;
+}
+.lote-section .lote ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+.lote-section .lote ul li {
+  color: #152247;
+  margin-bottom: 10px;
+}
+.lote-section .status {
+  margin-top: 20px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+}
+.lote-section .status a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.lote-section .esgotado .status {
+  background-color: #24305E;
+}
+.lote-section .disponivel .status {
+  background-color: #94793C;
+}
+@media (max-width: 600px) {
+  .lote-section .container {
+    padding: 10px;
+  }
+  .lote-section .lote {
+    padding: 15px;
+  }
+  .lote-section h1 {
+    font-size: 1.5rem;
+  }
+  .lote-section .lote h2 {
+    font-size: 1.2rem;
+  }
 }
 
 #learn {
@@ -729,73 +855,9 @@ footer p {
   font-size: 24px;
 }
 
-.lote-section .loteConteiner {
-  text-align: center;
-  max-width: 600px;
-  padding: 20px;
-}
-.lote-section h1 {
-  font-size: 2rem;
-  text-align: center;
-  margin-top: 40px;
-  margin-bottom: 20px;
-}
-.lote-section .lote {
-  background-color: #FFFBF2;
-  border: 1px solid #C7B299;
-  border-radius: 8px;
-  padding: 20px;
-  margin-bottom: 25px;
-  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-.lote-section .lote h2 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-  color: #B09968;
-}
-.lote-section .lote ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  text-align: left;
-}
-.lote-section .lote ul li {
-  color: #152247;
-  margin-bottom: 10px;
-}
-.lote-section .status {
-  margin-top: 20px;
-  font-weight: bold;
-  color: white;
-  padding: 10px;
-  border-radius: 5px;
-}
-.lote-section .esgotado .status {
-  background-color: #24305E;
-}
-.lote-section .disponivel .status {
-  background-color: #D4A373;
-}
-@media (max-width: 600px) {
-  .lote-section .container {
-    padding: 10px;
-  }
-  .lote-section .lote {
-    padding: 15px;
-  }
-  .lote-section h1 {
-    font-size: 1.5rem;
-  }
-  .lote-section .lote h2 {
-    font-size: 1.2rem;
-  }
-}
-
 .accordion-container {
-  max-width: 37.5rem;
   margin: auto;
-  margin-bottom: 3.125rem;
+  margin-bottom: 1rem;
 }
 
 .accordion-item {
@@ -869,11 +931,14 @@ footer p {
 }
 
 .faq {
-  color: black;
+  color: #FFFFFF;
 }
 
 .faq-text {
   text-align: center;
+}
+.faq-text h1 {
+  font-size: 30px;
 }
 
 iframe {

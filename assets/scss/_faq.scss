@@ -1,7 +1,6 @@
 .accordion-container {
-    max-width: 37.5rem;
     margin: auto;
-    margin-bottom: 3.125rem;
+    margin-bottom: 1rem;
   }
   
   .accordion-item {
@@ -62,10 +61,14 @@
   }
   
   .faq {
-    color:  black;
+    color:  $off-white;
   }
   .faq-text{
     text-align: center;
+
+    h1 {
+      font-size: 30px;
+    }
 
   }
   iframe{
