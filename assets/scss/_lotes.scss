@@ -1,0 +1,76 @@
+.lote-section{
+    
+    .loteConteiner {
+        text-align: center;
+        max-width: 600px;
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    
+.lote {
+    background-color: #FFFBF2;
+    border: 1px solid #C7B299;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lote h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #B09968;
+}
+
+.lote ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.lote ul li {
+    color: $navy-blue;
+    margin-bottom: 10px;
+}
+
+.status {
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.esgotado .status {
+    background-color: #24305E;
+}
+
+.disponivel .status {
+    background-color: #D4A373;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .lote {
+        padding: 15px;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    .lote h2 {
+        font-size: 1.2rem;
+    }
+}
+}

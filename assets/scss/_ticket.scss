@@ -1,33 +1,39 @@
 .ticket-section {
+  background-color: $beige;
+
   @include flex-center;
   flex-direction: column;
-
   padding: 10px 25px 50px 25px;
 
-  i { 
-    color: $off-white;
-  }
+
 
   h1 { 
     text-align: center;
+    color: $navy-blue;
   }
 
   img {
+    width: 100%;
   }
 
   .content {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-
+    margin: 10px;
     background-color: $golden-brown;
     padding: 20px;
     border-radius: 20px;
+  }
+  .fa-calendar-days {
+    color: $navy-blue;
+    margin-right: 10px;
+    font-size: 28px;
 
-    i {
-      color: $navy-blue;
-      
-    }
+  }
+  .fa-location-dot{
+    color: $navy-blue;
+    margin-right: 10px;
+    font-size: 28px;
   }
 }
