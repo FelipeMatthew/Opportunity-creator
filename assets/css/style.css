@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-@font-face {
-  font-family: valdoThin;
-  src: url("../font/Valdo Thinitalic 1.otf");
-}
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 body {
-  font-family: "Montserrat", valdoThin, sans-serif;
+  font-family: "Montserrat", "Inira Serif", sans-serif;
   background-color: #152247;
   color: #FFFFFF;
   margin: 0;
   padding: 0;
+}
+body h1 {
+  text-transform: uppercase;
+  font-family: "Inria Serif", "Montserrat", sans-serif;
 }
 
 .empresaria-section {
@@ -28,7 +29,7 @@ body {
   text-align: center;
 }
 .empresaria-section h1 {
-  font-size: 24px;
+  font-weight: bold;
   margin-bottom: 30px;
 }
 .empresaria-section .cards {
@@ -135,6 +136,7 @@ body {
   line-height: 1.5;
 }
 .opportunity-section .button-edited {
+  color: #152247;
   background: linear-gradient(15deg, #a67c00, #bf9b30, #ffbf00, #ffcf40, #ffdc73, #bf9b30, #a67c00);
 }
 
@@ -154,6 +156,9 @@ body {
           flex-direction: column;
   padding: 20px;
   text-align: center;
+}
+.forBusinesses h1 {
+  text-transform: uppercase;
 }
 
 .experience-section {
@@ -274,6 +279,47 @@ h3 {
 
 .details {
   padding-top: 1em;
+}
+
+.ticket-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px 25px 50px 25px;
+}
+.ticket-section i {
+  color: #FFFFFF;
+}
+.ticket-section h1 {
+  text-align: center;
+}
+.ticket-section .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  background-color: #94793C;
+  padding: 20px;
+  border-radius: 20px;
+}
+.ticket-section .content i {
+  color: #152247;
 }
 
 .profile-section {

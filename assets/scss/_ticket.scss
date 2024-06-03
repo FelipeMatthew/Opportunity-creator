@@ -1,0 +1,33 @@
+.ticket-section {
+  @include flex-center;
+  flex-direction: column;
+
+  padding: 10px 25px 50px 25px;
+
+  i { 
+    color: $off-white;
+  }
+
+  h1 { 
+    text-align: center;
+  }
+
+  img {
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    background-color: $golden-brown;
+    padding: 20px;
+    border-radius: 20px;
+
+    i {
+      color: $navy-blue;
+      
+    }
+  }
+}
