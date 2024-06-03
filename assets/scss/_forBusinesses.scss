@@ -1,0 +1,10 @@
+.forBusinesses {
+  @include flex-center;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+
+  h1 {
+    text-transform: uppercase;
+  }
+}

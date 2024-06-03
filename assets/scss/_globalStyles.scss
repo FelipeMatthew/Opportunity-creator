@@ -6,11 +6,8 @@ $golden-brown: #94793C;
 
 // Font
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
-@font-face {
-  font-family: valdoThin;
-  src: url('../font/Valdo\ Thinitalic\ 1.otf');
-}
 
 
 // Mixins
@@ -22,11 +19,16 @@ $golden-brown: #94793C;
 
 // Styles
 body {
-  font-family: "Montserrat", valdoThin, sans-serif;
+  font-family: "Montserrat", "Inira Serif", sans-serif;
   
   background-color: $navy-blue;
   color: $off-white;
   
   margin: 0;
   padding: 0;
+
+  h1 {
+    text-transform: uppercase;
+    font-family:"Inria Serif",  "Montserrat" , sans-serif;
+  }
 }
