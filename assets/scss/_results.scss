@@ -1,5 +1,5 @@
 
-.results-section {
+#results-section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,7 +9,6 @@
 
   h1 {
     color: $navy-blue;
-    font-size: 20px;
     margin-bottom: 20px;
   }
 

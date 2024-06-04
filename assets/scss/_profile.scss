@@ -1,4 +1,4 @@
-.profile-section {
+#profile-section {
   @include flex-center;
 
   height: 100vh;
@@ -11,6 +11,13 @@
 
   padding: 20px;
 
+  .smaller-h1 {
+    font-size: 24px;
+  }
+
+  .scale-image {
+    object-position: 100% 10%;
+  }
 
   .card-profile {
     padding: 5px 20px;
