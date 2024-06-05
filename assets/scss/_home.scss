@@ -3,7 +3,6 @@
   height: 100vh;
   display: flex;
   justify-content: center;
-;
 }
 #homeBgImg{
   background-image: url('../images/profiles/all-grils.jpeg');
@@ -109,6 +108,18 @@ justify-content: center;
 
 	}
 }
+
+// Tablet Screen
+@media (min-width: 768px) {
+	#homeBgImg {
+		height: 100%;
+	}
+
+	.main-logo {
+		width: 30vw;
+	}
+}
+
 
 
 
