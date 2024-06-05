@@ -93,9 +93,7 @@ body h1 {
     display: flex;
   }
   #empresaria-section .cards {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    margin: 2rem 0;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -103,7 +101,7 @@ body h1 {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    gap: 40px;
+    gap: 5rem;
   }
 }
 #opportunity-section {
@@ -668,19 +666,9 @@ footer p {
 }
 
 #learn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding: 20px;
   background-color: #152247;
   color: #fff;
-  min-height: 100vh;
   text-align: center;
 }
 #learn .about {
@@ -691,7 +679,6 @@ footer p {
 .container {
   background-color: #0a2e56;
   width: 90%;
-  max-width: 400px;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
@@ -738,6 +725,15 @@ footer p {
   color: #dcdcdc;
 }
 
+@media (min-width: 768px) {
+  .learning-points {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 25px;
+  }
+}
 #home {
   background-color: #152247;
   height: 100vh;
