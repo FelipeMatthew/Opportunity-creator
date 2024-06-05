@@ -1,9 +1,7 @@
 #learn{
-    @include flex-center; // Mixin criado do global styles
     padding: 20px;
     background-color: $navy-blue;
     color: #fff;
-    min-height: 100vh;
     text-align: center;
 
 
@@ -15,7 +13,6 @@
 .container {
     background-color: #0a2e56;
     width: 90%;
-    max-width: 400px;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -58,4 +55,11 @@
     margin: 0;
     font-size: 0.9em;
     color: #dcdcdc;
+}
+
+@media (min-width: 768px) {
+    .learning-points {
+        flex-direction: row;
+        gap: 25px;
+    }
 }
