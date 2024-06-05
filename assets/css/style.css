@@ -885,6 +885,10 @@ footer p {
   .main-logo {
     width: 30vw;
   }
+  .content {
+    display: none;
+    opacity: 0;
+  }
 }
 .accordion-container {
   margin: auto;
