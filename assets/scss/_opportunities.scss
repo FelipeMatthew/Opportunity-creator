@@ -1,28 +1,32 @@
-
 #opportunity-section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-color: $navy-blue;
   padding: 20px;
   text-align: center;
+
+  .container-grid {
+    display: flex;
+  }
 
   h1 {
     margin-bottom: 20px;
   }
 
   .cards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
     gap: 20px;
+    width: 100%;
+    justify-content: center;
 
     .card {
-      background-color: rgb(30, 61, 107, 0.3);
+      background-color: rgba(30, 61, 107, 0.3);
       border-radius: 30px;
+      text-align: left;
       width: 100%;
       max-width: 300px;
-      text-align: left;
 
       img {
         width: 100%;
@@ -39,9 +43,7 @@
   }
 
   .button-edited {
-
     color: $navy-blue;
-
     background: linear-gradient(
       15deg,
       #a67c00, 
@@ -50,9 +52,32 @@
       #ffcf40,
       #ffdc73,
       #bf9b30,
-      #a67c00,
-    )
+      #a67c00
+    );
   }
+}
 
-  
+// Responsive
+@media (min-width: 768px) {
+  #opportunity-section {
+    .cards {
+      margin: 30px 0;
+      grid-template-columns: repeat(2, 1fr); // 2 colunas para telas médias
+      gap: 60px;
+
+      .card {
+        img {
+          height: 350px;    
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  #opportunity-section {
+    .cards {
+      grid-template-columns: repeat(3, 1fr); // 3 colunas para telas grandes
+    }
+  }
 }

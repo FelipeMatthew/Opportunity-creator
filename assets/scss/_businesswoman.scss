@@ -82,6 +82,10 @@
       flex-direction: row;
       align-items: flex-start;
       gap: 5rem;
+
+      .card {
+        height: 400px;
+      }
     }
   }
 
