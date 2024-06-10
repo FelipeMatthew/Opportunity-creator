@@ -103,6 +103,9 @@ body h1 {
             align-items: flex-start;
     gap: 5rem;
   }
+  #empresaria-section .cards .card {
+    height: 400px;
+  }
 }
 #opportunity-section {
   display: -webkit-box;
@@ -115,32 +118,35 @@ body h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #152247;
   padding: 20px;
   text-align: center;
+}
+#opportunity-section .container-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 #opportunity-section h1 {
   margin-bottom: 20px;
 }
 #opportunity-section .cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  display: grid;
   gap: 20px;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 #opportunity-section .cards .card {
   background-color: rgba(30, 61, 107, 0.3);
   border-radius: 30px;
+  text-align: left;
   width: 100%;
   max-width: 300px;
-  text-align: left;
 }
 #opportunity-section .cards .card img {
   width: 100%;
@@ -157,6 +163,21 @@ body h1 {
   background: linear-gradient(15deg, #a67c00, #bf9b30, #ffbf00, #ffcf40, #ffdc73, #bf9b30, #a67c00);
 }
 
+@media (min-width: 768px) {
+  #opportunity-section .cards {
+    margin: 30px 0;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+  }
+  #opportunity-section .cards .card img {
+    height: 350px;
+  }
+}
+@media (min-width: 1024px) {
+  #opportunity-section .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 #forBusinesses {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -178,6 +199,18 @@ body h1 {
   text-transform: uppercase;
 }
 
+@media (min-width: 768px) {
+  #forBusinesses .learning-points {
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 49%;
+    height: 400px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+  }
+}
 #experience-section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -665,6 +698,20 @@ footer p {
   }
 }
 
+@media (min-width: 1024px) {
+  #lote-section .loteConteiner {
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
 #learn {
   padding: 20px;
   background-color: #152247;

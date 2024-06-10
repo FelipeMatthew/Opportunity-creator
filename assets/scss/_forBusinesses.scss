@@ -7,4 +7,18 @@
   h1 {
     text-transform: uppercase;
   }
+ 
+}
+
+@media (min-width: 768px) {
+  #forBusinesses {
+    .learning-points {
+      display: grid;
+      justify-content: center;
+      width: 49%;
+      height: 400px;
+      grid-template-columns: repeat(2, 1fr); // 2 colunas para telas médias
+      gap: 60px;
+    }
+  }
 }
