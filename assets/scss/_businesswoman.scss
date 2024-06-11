@@ -75,20 +75,32 @@
 // Tablet Screen
 @media (min-width: 768px) {
   #empresaria-section {
+  h1 {
+    font-size: 2.2em;
+  }}
+  #empresaria-section {
     display: flex;
 
     .cards {
       margin: 2rem 0;
       flex-direction: row;
       align-items: flex-start;
-      gap: 5rem;
+      gap: 10rem;
 
       .card {
-        height: 400px;
+        height: 500px;
+        max-width: 390px;
+        h2 {
+          font-size: 25px;
+          
+        }
+
+        ul>li{
+          font-size: 1.15em;
+          gap: 20px;
+         padding: 5px;
       }
     }
   }
 
-  
-
-}
+}}

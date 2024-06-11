@@ -44,3 +44,9 @@
   fill: #f09f33;
   transition: 0.3s ease;
 }
+
+@media (min-width: 768px) {
+  .button-edited{
+    margin-top: 85px;
+  }
+}

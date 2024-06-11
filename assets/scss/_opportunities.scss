@@ -60,6 +60,10 @@
 // Responsive
 @media (min-width: 768px) {
   #opportunity-section {
+    h1 {
+      font-size: 2rem;
+    }
+
     .cards {
       margin: 30px 0;
       grid-template-columns: repeat(2, 1fr); // 2 colunas para telas médias

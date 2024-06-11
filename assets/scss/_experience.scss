@@ -15,6 +15,11 @@
   .divider {
     height: 2px;
     background-color: $navy-blue;
+    width: 100%;
+  }
+
+  .content {
+    width: 100%;
   }
 
   .content-text {
@@ -30,26 +35,44 @@
       font-size: 1.8rem;
     }
   }
-}
 
-// Icon animation
-.scroll-icon {
-  margin-top: 20px;
+  // Icon animation
+  .scroll-icon {
+    margin-top: 20px;
 
-  span {
-    position: relative;
-    color: #fff;
-    animation-name: drop;
-    animation-duration: 1s;
-    animation-timing-function: linear;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-    animation-play-state: running;
+    span {
+      position: relative;
+      color: #fff;
+      animation-name: drop;
+      animation-duration: 1s;
+      animation-timing-function: linear;
+      animation-delay: 0s;
+      animation-iteration-count: infinite;
+      animation-play-state: running;
+    }
   }
-}
 
+  .fa-arrow-down {
+    font-size: 2.5rem;
+    color: $navy-blue;
+  }
 
-.fa-arrow-down {
-  font-size: 2.5rem;
-  color: $navy-blue;
+  @media (min-width: 768px) {
+    .content{ 
+      width: 60vw;
+    }
+    
+    .content-text {
+      justify-content: flex-start;
+      gap: 15px;
+
+      p {
+        text-align: left;
+      }
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+  }
 }

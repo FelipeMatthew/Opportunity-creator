@@ -49,3 +49,17 @@ h3 {
 
 
 }
+// Responsive
+@media (min-width: 768px) {
+    .container_services {
+        max-width: 500px;
+    }
+
+    #services {
+        h3 {
+            font-size: 2.5rem;
+        }
+    }
+}
+
+

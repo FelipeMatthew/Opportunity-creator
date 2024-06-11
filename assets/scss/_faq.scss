@@ -74,3 +74,16 @@
   iframe{
     width: 100%;
   }
+
+
+  @media (min-width: 768px) {
+    .faq-text {
+      h1 {
+        font-size: 3rem;
+      }
+    }
+
+    .accordion-container {
+      width: 60%;
+    }
+  }

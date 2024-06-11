@@ -61,5 +61,43 @@
     .learning-points {
         flex-direction: row;
         gap: 25px;
+        margin-top: 80px;
+        margin-bottom: 80px;
     }
+    
+.point {
+    background-color: #252F4B;
+    padding: 50px;
+    border-radius: 5px;
+    align-items: center;
+    gap: 900px;
+    font-size: 1.5rem;
 }
+    .container_learn>h1{
+        font-size: 2.5em;
+    }
+    .highlight_container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .highlight {
+width: 50%;
+text-align: center;
+        padding: 5px;
+        border-radius: 50px;
+        margin-bottom: 20px;
+        margin-top: 50px;
+        border: 4px solid #bfa76f;
+    }
+    .highlight > p {
+        font-size: 1.1rem;
+    }
+    .about {
+        font-size: 1.25rem;
+        margin-bottom: 60px;
+
+    }
+    }
+    

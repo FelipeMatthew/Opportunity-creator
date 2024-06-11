@@ -12,6 +12,10 @@
 
 @media (min-width: 768px) {
   #forBusinesses {
+    h1 {
+      font-size: 2rem;
+    }
+
     .learning-points {
       display: grid;
       justify-content: center;

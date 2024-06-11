@@ -52,7 +52,7 @@
       margin-top: -1.7rem;
     }
 
-    p {
+    .p-content {
       font-size: 14px;
     }
   }
@@ -78,14 +78,18 @@
 
 
 /* Styles for larger screens */
-@media (min-width: 600px) {
-  #splide .splide__slide {
-    font-size: 20px;
-  }
-}
 
 @media (min-width: 800px) {
   #splide {
-    max-width: 800px;
+    max-width: 80vw;
+  }
+  #profile-section {
+    h1 {
+      font-size: 2rem;
+    }
+    .card-profile {
+    .p-content {
+      font-size: 1.15rem;
+    }}
   }
 }
