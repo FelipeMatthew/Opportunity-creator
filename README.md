@@ -23,10 +23,10 @@
 
 ```js
 # Fazer o clone do repositório
-$ git clone https://github.com/FelipeMatthew/tati-lima-sobrancelhas.git
+$ git clone https://github.com/MarkesZks/Opportunity-creator.git
 
 # Acessar pasta do respositório
-$ cd tati-lima-sobrancelhas
+$ cd Opportunity-creator
 
 # Abrir na IDE de sua preferência
 $ code .
