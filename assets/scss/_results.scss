@@ -62,8 +62,29 @@
       font-size: 2rem;
     }
 
+    .cards {
+      display: flex;
+      flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    
     .card { 
-      max-width: 1300px;
+      max-width: 350px;
+  
+      margin: 10px; 
+  
+    
+      
+      p {
+        text-align: center;
+        padding: 0 10px;
+        font-size: 18px;
+        line-height: 1.5;
+      }
     }
+  
+    }  
+   
   }
 }
